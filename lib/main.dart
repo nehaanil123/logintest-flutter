@@ -34,22 +34,6 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
-            Card(
-              child: Row(
-                children: <Widget>[
-                  Icon(
-                    Icons.account_box,
-                  ),
-                  Container(
-                    padding: EdgeInsets.all(10.0),
-                    width: 300,
-                    child: TextField(
-                      decoration: InputDecoration(labelText: 'Password'),
-                    ),
-                  ),
-                ],
-              ),
-            ),
             Container(
               margin: EdgeInsets.all(10.0),
               child: RaisedButton(
